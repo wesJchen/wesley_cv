@@ -5,123 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wesley Chen - Curriculum Vitae</title>
     <style>
+        .box {
+            background-color: rgb(241, 241, 241);
+            width: 1000px; /* Fixed width */
+            padding: 75px;
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(36, 36, 36, 0.4); /* Subtle shadow */
+        }
+        .highlighted-text {
+            background-color: black;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: Menlo, Monaco, 'Courier New', monospace;
             margin: 20px;
-            line-height: 1.6;
+            line-height: 1.2;
+            display: grid;
+            place-items: center;
         }
         h1 {
             color: #0251c7;
+
         }
         h2 {
             color: #333;
+            text-align: center; /* Center text inside */
         }
         h3 {
             color: #555;
         }
+        p {
+            color:#5e5e5e;
+        }
+        li {
+            margin: 0; /* Remove margin */
+            padding: 0; /* Remove padding */
+        }
     </style>
 </head>
 <body>
-    <h1>Wesley J Chen</h1>
-    <p><strong>Email:</strong>wesjchen@gmail.com | <strong>Location:</strong>Chicago, IL | <strong>LinkedIn:</strong><a href="https://linkedin.com/in/wesjchen" target="_blank">linkedin.com/in/wesleyjchen</a></p>
-    <hr>
+    <div class="box">
+        <h1><strong>WESLEY J CHEN</strong></h1>
+        <p><strong>Email: </strong>wesjchen@gmail.com<br>
+            <strong>Location: </strong>Chicago, IL | Boston, MA<br>
+            <strong>LinkedIn: </strong><a href="https://linkedin.com/in/wesjchen" target="_blank">linkedin.com/in/wesleyjchen</a><br>
+            <strong>Personal: </strong><a href="https://wesjchen.com" target="_blank">www.wesjchen.com</a>
+        </p>
 
-    <h2>Professional Experience</h2>
+        <h2>EDUCATIONAL BACKGROUND</h2>
+        <hr>
 
-    <h3>Fetch, (Chicago, IL)</h3>
+        <h4><strong>Boston University </strong>(Boston, MA)</h4>
+        <ul>
+            <li><strong>Master of Science in Computer Information Systems</strong>, <em>Expected 2026</em></li>
+            <em>Focus in Database Management and Business Intelligence</em>
+        </ul>
 
-    <h4>Software Quality Assurance Engineer</h4>
-    <p>Sep 2023 - Current</p>
-    <ul>
-        <li>Actively contribute to the automation framework for consistent increase in test coverage by 1% each week for the specified use cases across all projects.</li>
-        <li>Take charge of both automated and manual testing processes across various product teams, establishing robust testing methodologies and ensuring strict adherence to quality standards.</li>
-        <li>Streamline the mobile release schedule to guarantee seamless deployment of weekly features, patches, and hotfixes to production, following rigorous regression testing protocols.</li>
-        <li>Oversee and analyze weekly automation results for mobile features, proactively identifying necessary code changes and updates essential for maintaining optimal test coverage.</li>
-    </ul>
+        <h4><strong>University of Illinois at Chicago </strong>(Chicago, IL)</h4>
+        <ul>
+            <li><strong>Bachelor of Science in Information & Decision Sciences</strong>, <em>2019</em></li>
+            <em>Concentration in Business Analytics<br></em>
+            <li><strong>Bachelor of Science in Marketing</strong>, <em>2019</em></li>
+            <em>Concentration in Marketing Research</em>
+            </p>
+        </ul>
 
-    <h4>Software Quality Assurance Analyst</h4>
-    <p>Apr 2022 - Aug 2023</p>
-    <ul>
-        <li>Formulated robust functional and integration test cases to safeguard against regression on mobile or backend changes to ensure the stability and reliability of the system following updates.</li>
-        <li>Created comprehensive documentation outlining mobile analytic events to guarantee precise data accuracy and streamline the implementation process across cross-functional teams.</li>
-        <li>Led grooming sessions to collaboratively identify acceptance criteria and testing priorities, ensuring thorough testing for both bug fixes and new product releases.</li>
-        <li>Executed meticulous manual testing on the application in non-production environments, validating the quality of products to be deployed seamlessly without adversely affecting the user experience.</li>
-    </ul>
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <hr>
 
-    <h4>Senior Data Integrity Specialist</h4>
-    <p>Sep 2021 - Apr 2022</p>
-    <ul>
-        <li>Validated and managed restaurant catalogs of standardized OCR data for quality, completeness, and accuracy.</li>
-        <li>Created training material and presented routine project updates to specialists on project processes and new workflows.</li>
-        <li>Constructed SQL queries to identify anomalies, errors, and information gaps in the database to assist the onboarding process of new and existing restaurant partnerships for reward programs.</li>
-        <li>Designed visualizations to track metrics on current and historical data to understand the efficacy of restaurant data usage in its product linking capabilities.</li>
-    </ul>
+        <h3>Fetch (Chicago, IL | Boston, MA)</h3>
+        <h4>Software Quality Assurance Engineer</h4>
+        <p><em>Sep 2023 - Current</em></p>
+        <ul>
+            <li>Actively contribute to the automation framework for consistent increase in test coverage by 1% each week for the specified use cases across all projects.</li>
+            <li>Take charge of both automated and manual testing processes across various product teams, establishing robust testing methodologies and ensuring strict adherence to quality standards.</li>
+            <li>Streamline the mobile release schedule to guarantee seamless deployment of weekly features, patches, and hotfixes to production, following rigorous regression testing protocols.</li>
+            <li>Oversee and analyze weekly automation results for mobile features, proactively identifying necessary code changes and updates essential for maintaining optimal test coverage.</li>
+        </ul>
 
-    <h4>Data Integrity Specialist</h4>
-    <p>Oct 2020 - Aug 2021</p>
-    <ul>
-        <li>Assisted with the implementation of a dashboard tool by defining roles, gathering requirements, and conducting black-box tests to be successfully used by multiple departments cross-functionally.</li>
-        <li>Uncovered data anomalies and updated records for all restaurants and retailers with Excel.</li>
-        <li>Built an automated reporting of data accuracy metrics via the integration of Google sheets with Python in Jupyter that improved cleaning and analysis efficiency by 80%.</li>
-        <li>Created new processes and standard practices coherently documented as a Confluence knowledge source for stakeholders to understand restaurant data life cycle.</li>
-    </ul>
+        <h4>Software Quality Assurance Analyst</h4>
+        <p><em>Apr 2022 - Aug 2023</em></p>
+        <ul>
+            <li>Formulated robust functional and integration test cases to safeguard against regression on mobile or backend changes to ensure the stability and reliability of the system following updates.</li>
+            <li>Created comprehensive documentation outlining mobile analytic events to guarantee precise data accuracy and streamline the implementation process across cross-functional teams.</li>
+            <li>Led grooming sessions to collaboratively identify acceptance criteria and testing priorities, ensuring thorough testing for both bug fixes and new product releases.</li>
+            <li>Executed meticulous manual testing on the application in non-production environments, validating the quality of products to be deployed seamlessly without adversely affecting the user experience.</li>
+        </ul>
 
-    <h3>Workiva, Chicago, IL</h3>
+        <h4>Senior Data Integrity Specialist</h4>
+        <p><em>Sep 2021 - Apr 2022</em></p>
+        <ul>
+            <li>Validated and managed restaurant catalogs of standardized OCR data for quality, completeness, and accuracy.</li>
+            <li>Created training material and presented routine project updates to specialists on project processes and new workflows.</li>
+            <li>Constructed SQL queries to identify anomalies, errors, and information gaps in the database to assist the onboarding process of new and existing restaurant partnerships for reward programs.</li>
+            <li>Designed visualizations to track metrics on current and historical data to understand the efficacy of restaurant data usage in its product linking capabilities.</li>
+        </ul>
 
-    <h4>Product Marketing Analyst Intern</h4>
-    <p>May 2019 - Dec 2019</p>
-    <ul>
-        <li>Constructed price performance dashboard to track marketing efforts and model new pricing strategies.</li>
-        <li>Analyzed and cross-referenced SEC EDGAR filings to customer solutions licenses in order to identify white space and product fencing.</li>
-        <li>Wrote SQL scripts to understand the status of licenses proliferating and evaluate any potential growth opportunities.</li>
-        <li>Assessed product adoption trends, product usage, and customer segmentation using Salesforce.</li>
-        <li>Provided critical support for product pricing and packaging by automating metrics, calculations, and data analysis.</li>
-    </ul>
-    <hr>
+        <h4>Data Integrity Specialist</h4>
+        <p><em>Oct 2020 - Aug 2021</em></p>
+        <ul>
+            <li>Assisted with the implementation of a dashboard tool by defining roles, gathering requirements, and conducting black-box tests to be successfully used by multiple departments cross-functionally.</li>
+            <li>Uncovered data anomalies and updated records for all restaurants and retailers with Excel.</li>
+            <li>Built an automated reporting of data accuracy metrics via the integration of Google sheets with Python in Jupyter that improved cleaning and analysis efficiency by 80%.</li>
+            <li>Created new processes and standard practices coherently documented as a Confluence knowledge source for stakeholders to understand restaurant data life cycle.</li>
+        </ul>
 
-    <h2>Technical Proficiencies</h2>
+        <h3>Workiva (Chicago, IL)</h3>
 
-    <p>
-        <strong>Testing:</strong> Postman API, Firebase, Crashlytics, Browserstack, Zephyr<br>
-        <strong>Scripting:</strong> Python, SQL, Ruby<br>
-        <strong>Administrative:</strong> Microsoft Office Suite, Google Suite, Atlassian (Jira, Confluence)<br>
-        <strong>Version Control:</strong> Github, Bitbucket
-    </p>
-    <hr>
+        <h4>Product Marketing Analyst Intern</h4>
+        <p><em>May 2019 - Dec 2019</em></p>
+        <ul>
+            <li>Constructed price performance dashboard to track marketing efforts and model new pricing strategies.</li>
+            <li>Analyzed and cross-referenced SEC EDGAR filings to customer solutions licenses in order to identify white space and product fencing.</li>
+            <li>Wrote SQL scripts to understand the status of licenses proliferating and evaluate any potential growth opportunities.</li>
+            <li>Assessed product adoption trends, product usage, and customer segmentation using Salesforce.</li>
+            <li>Provided critical support for product pricing and packaging by automating metrics, calculations, and data analysis.</li>
+        </ul>
 
-    <h2>Educational Background</h2>
+        <h2>Tech Stack</h2>
+        <hr>
 
-    <p>
-        <strong>University of Illinois at Chicago, Chicago, IL</strong><br>
-        <strong>Bachelor of Science in Business Administration (double major), 2019</strong><br>
-        <strong>Information & Decision Sciences</strong> - concentration: business analytics<br>
-        <strong>Marketing</strong> - concentration: marketing research<br>
-        <strong>Cumulative GPA:</strong> 3.87, <strong>Major GPA:</strong> 4.0
-    </p>
-    <hr>
+        <p>
+            <strong>Testing:</strong> Postman API, Firebase, Crashlytics, Browserstack, Zephyr<br>
+            <strong>Data:</strong> Snowflake, DynamoDb, MongoDb, Redis, Kafka<br>
+            <strong>Scripting:</strong> Python, SQL, Ruby<br>
+            <strong>Administrative:</strong> Microsoft Office Suite, Google Suite, Atlassian (Jira, Confluence)<br>
+        </p>
 
-    <h2>Awards and Recognition</h2>
+        <h2>Awards and Recognition</h2>
+        <hr>
 
-    <ul>
-        <li>Dean’s List (Fall 2017 - Fall 2019)</li>
-        <li>Graduated with latin honors - magna cum laude</li>
-        <li>Dr. Lucille Derreck merit scholarship recipient</li>
-        <li>UIC Norman Parker merit scholarship recipient</li>
-    </ul>
-    <hr>
+        <h4>
+            University of Illinois at Chicago
+        </h4>
+        <ul>
+            <li>Dean's List <em>(Fall 2017 - Fall 2019)</em></li>
+            <li>Graduated with latin honors - magna cum laude</li>
+            <li>Dr. Lucille Derreck merit scholarship recipient</li>
+            <li>UIC Norman Parker merit scholarship recipient</li>
+        </ul>
+        <hr>
 
-    <h2>Undergraduate Coursework</h2>
+        <h2>Academic Coursework</h2>
+        <h4>
+            Boston University
+        </h4>
+        <ul>
+            <li>Database Design and Implementation for Business</li>
+            <li>Information Structures with Python</li>
+            <li>Business Data Communication and Networks</li>
+        </ul>
 
-    <ul>
-        <li>Business Database Technology</li>
-        <li>Business Statistics I, II</li>
-        <li>Business Data Mining</li>
-        <li>Programming for Data Science in Business</li>
-        <li>Statistical Software for Business Analysis</li>
-        <li>Marketing Analytics</li>
-        <li>Advanced Marketing Research</li>
-        <li>Marketing and Business Intelligence</li>
-    </ul>
-
+        
+        <h4>
+            University of Illinois at Chicago
+        </h4>
+        <ul>
+            <li>Business Database Technology</li>
+            <li>Business Statistics I, II</li>
+            <li>Business Data Mining</li>
+            <li>Programming for Data Science in Business</li>
+            <li>Statistical Software for Business Analysis</li>
+            <li>Marketing Analytics</li>
+            <li>Advanced Marketing Research</li>
+            <li>Marketing and Business Intelligence</li>
+        </ul>
+    </div>
 </body>
 </html>
