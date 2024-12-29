@@ -1,8 +1,8 @@
 .box {
-    background-color: rgb(245, 245, 245);
-    max-width: 816;
-    padding: 60px;
-    border-radius: 15px; /* Rounded corners */
+    background-color: rgb(240, 240, 240);
+    width: 800;
+    padding: 70px;
+    border-radius: 20px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(36, 36, 36, 0.4); /* Subtle shadow */
 }
 .highlighted-text {
@@ -35,7 +35,7 @@ h4 {
     margin: 0;
 }
 p {
-    color:#5e5e5e;
+    color:#555;
     margin: 0;
 }
 li {
