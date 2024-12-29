@@ -1,0 +1,44 @@
+.box {
+    background-color: rgb(245, 245, 245);
+    max-width: 816;
+    padding: 60px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(36, 36, 36, 0.4); /* Subtle shadow */
+}
+.highlighted-text {
+    background-color: black;
+}
+
+body {
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-size: 12px;
+    margin: 10px;
+    line-height: 1.2;
+    display: grid;
+    place-items: center;
+}
+h1 {
+    color: #fdfdfd;
+    text-align: left;
+    font-size: 35px;
+    background-color: #000000; /* Highlight color */
+}
+h2 {
+    color: #ffffff;
+    text-align: left; /* Center text inside */
+}
+h3 {
+    color: #555;
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+p {
+    color:#5e5e5e;
+    margin: 0;
+}
+li {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
