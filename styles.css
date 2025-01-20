@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-family: Menlo, monospace;
     font-size: 11px;
     margin: 10px;
     line-height: 1.2;
@@ -41,6 +41,17 @@ p {
 li {
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
+}
+
+.image-container {
+    display: flex;          /* Use flexbox to arrange items horizontally */
+    justify-content: center; /* Optional: centers the images horizontally */
+    gap: 10px;              /* Optional: adds space between images */
+}
+
+.image-container img {
+    width: 50px;             /* Resize the images to fit side by side */
+    height: auto;           /* Maintain aspect ratio */
 }
 
 footer {
