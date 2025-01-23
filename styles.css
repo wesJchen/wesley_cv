@@ -10,8 +10,8 @@
 }
 
 body {
-    font-family: Menlo, monospace;
-    font-size: 11px;
+    font-family: Inconsolata, monospace;
+    font-size: 16px;
     margin: 10px;
     line-height: 1.2;
     display: grid;
@@ -50,12 +50,12 @@ li {
 }
 
 .image-container img {
-    width: 50px;             /* Resize the images to fit side by side */
+    width: 75px;             /* Resize the images to fit side by side */
     height: auto;           /* Maintain aspect ratio */
 }
 
 footer {
     text-align: center;
-    font-size: 9px;
+    font-size: 14px;
     padding: 10px 0;
   }
